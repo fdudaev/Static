@@ -1,0 +1,7 @@
+Static:
+
+--> A static field aka Class variable is associated the class rather then any instance of a class. All instance of the class share that class variable.
+--> Static Methods and fields are belong to the class, NOT to the instance of the class. they can be called by referencing the class name.
+ClassName.getMethodName();
+--> Java does not allow a static methods to access non-static fields, because they don't exist when static method is called.
+-->
